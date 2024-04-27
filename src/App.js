@@ -32,7 +32,8 @@ function App() {
   return (
     <div className="centered-container">
       <Container className="form-container">
-        <h1 className="text-center mb-4">Travel Planner</h1>
+        <h1 className="text-center mb-4">ItineraryEase: Travel Planner</h1>
+        <h3 className="text-center mb-4">Your travel plans made simple.</h3>
         <Form onSubmit={handleSubmit}>
           <div className="mb-3">
             <Form.Label>Destination</Form.Label>
