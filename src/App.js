@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, Form, Button } from 'react-bootstrap';
+import './index.css'; // Importing the CSS file
 
 function App() {
   const [destination, setDestination] = useState('');
@@ -29,81 +30,83 @@ function App() {
   };
 
   return (
-    <Container>
-      <h1>Travel Planner</h1>
-      <Form onSubmit={handleSubmit}>
-        <Form.Group controlId="destination">
-          <Form.Label>Destination</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter destination"
-            value={destination}
-            onChange={(e) => setDestination(e.target.value)}
-          />
-        </Form.Group>
+    <div className="centered-container">
+      <Container className="form-container">
+        <h1 className="text-center mb-4">Travel Planner</h1>
+        <Form onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <Form.Label>Destination</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter destination"
+              value={destination}
+              onChange={(e) => setDestination(e.target.value)}
+            />
+          </div>
+          
+          <div className="mb-3">
+            <Form.Label>Total Budget</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter total budget"
+              value={totalBudget}
+              onChange={(e) => setTotalBudget(e.target.value)}
+            />
+          </div>
 
-        <Form.Group controlId="totalBudget">
-          <Form.Label>Total Budget</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter total budget"
-            value={totalBudget}
-            onChange={(e) => setTotalBudget(e.target.value)}
-          />
-        </Form.Group>
+          <div className="mb-3">
+            <Form.Label>Duration (days)</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter duration"
+              value={duration}
+              onChange={(e) => setDuration(e.target.value)}
+            />
+          </div>
 
-        <Form.Group controlId="duration">
-          <Form.Label>Duration (days)</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter duration"
-            value={duration}
-            onChange={(e) => setDuration(e.target.value)}
-          />
-        </Form.Group>
+          <div className="mb-3">
+            <Form.Label>Number of Travelers</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter number of travelers"
+              value={numberOfTravelers}
+              onChange={(e) => setNumberOfTravelers(e.target.value)}
+            />
+          </div>
 
-        <Form.Group controlId="numberOfTravelers">
-          <Form.Label>Number of Travelers</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter number of travelers"
-            value={numberOfTravelers}
-            onChange={(e) => setNumberOfTravelers(e.target.value)}
-          />
-        </Form.Group>
+          <div className="mb-3">
+            <Form.Label>Interests</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter interests"
+              value={interests}
+              onChange={(e) => setInterests(e.target.value)}
+            />
+          </div>
 
-        <Form.Group controlId="interests">
-          <Form.Label>Interests</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter interests"
-            value={interests}
-            onChange={(e) => setInterests(e.target.value)}
-          />
-        </Form.Group>
+          <div className="mb-3">
+            <Form.Label>Already Determined Activities</Form.Label>
+            <Form.Control
+              as="textarea"
+              placeholder="Enter already determined activities"
+              value={alreadyDeterminedActivities}
+              onChange={(e) => setAlreadyDeterminedActivities(e.target.value)}
+            />
+          </div>
 
-        <Form.Group controlId="alreadyDeterminedActivities">
-          <Form.Label>Already Determined Activities</Form.Label>
-          <Form.Control
-            as="textarea"
-            placeholder="Enter already determined activities"
-            value={alreadyDeterminedActivities}
-            onChange={(e) => setAlreadyDeterminedActivities(e.target.value)}
-          />
-        </Form.Group>
-
-        <Button variant="primary" type="submit">
-          Generate Travel Plan
-        </Button>
-      </Form>
-
-      {generatedPlan && (
-        <div>
-          <h2>Generated Plan</h2>
-          <p>{generatedPlan}</p>
-        </div>
-      )}
-    </Container>
+          <Button variant="primary" type="submit" className="w-100 mt-3">
+            Generate Travel Plan
+          </Button>
+        </Form>
+        
+        {generatedPlan && (
+          <div className="mt-4">
+            <h2>Generated Plan</h2>
+            <p>{generatedPlan}</p>
+          </div>
+        )}
+      </Container>
+    </div>
   );
 }
 

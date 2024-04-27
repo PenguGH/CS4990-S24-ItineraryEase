@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  padding: 20px;
+}
+
+/* Add margin below each form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Add margin between label and input */
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group {
+  background-color: lightgray;
+  padding: 20px;
+}
