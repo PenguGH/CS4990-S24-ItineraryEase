@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, Form, Button } from 'react-bootstrap';
-import './index.css'; // Importing the CSS file
+import { useNavigate } from 'react-router-dom';
+import DetailedPlan from './DetailedPlan'; // Imports the DetailedPlan component
+import './index.css';
 
 function App() {
   const [destination, setDestination] = useState('');
@@ -11,19 +13,15 @@ function App() {
   const [interests, setInterests] = useState('');
   const [alreadyDeterminedActivities, setAlreadyDeterminedActivities] = useState('');
   const [generatedPlan, setGeneratedPlan] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://example.com/generate-plan', {
-        destination,
-        totalBudget,
-        duration,
-        numberOfTravelers,
-        interests,
-        alreadyDeterminedActivities,
-      });
-      setGeneratedPlan(response.data.plan);
+      const response = await axios.get(`https://9a836156-7d26-408c-aac2-c6526f81cf4e-00-23mzs6xu7wxec.kirk.replit.dev/travelplan/${destination}/${totalBudget}/${duration}/${numberOfTravelers}/${interests}/${alreadyDeterminedActivities}`);
+      setGeneratedPlan(response.data);
+      navigate('/generated-plan');
+      console.log("Success!");
     } catch (error) {
       console.error('Error generating plan:', error);
     }
@@ -100,12 +98,7 @@ function App() {
           </Button>
         </Form>
         
-        {generatedPlan && (
-          <div className="mt-4">
-            <h2>Generated Plan</h2>
-            <p>{generatedPlan}</p>
-          </div>
-        )}
+        {generatedPlan && <DetailedPlan plan={generatedPlan} />} {/* Renders the DetailedPlan component */}
       </Container>
     </div>
   );
