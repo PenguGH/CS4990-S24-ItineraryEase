@@ -9,14 +9,19 @@ Example of User inputs for the Form:
 Example of resulting travel plan output:
 ![TravelPlanExamplePart1](images/travel_plan_1.png)
 ![TravelPlanExamplePart2](images/travel_plan_2.png)
+The same structure applies for the rest of the full travel plan.
 
 
 ## Tech Stack
 React.js front-end
+
 Python flask back-end
+
 Node.js cross platform runtime enviornment
+
 Model: gpt-4-1106-preview (OpenAI completion model used to generate the custom travel plans)
 
 ## Available Scripts to run my app
 npm install
+
 npm start
