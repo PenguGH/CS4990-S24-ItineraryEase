@@ -13,6 +13,12 @@ The same structure applies for the rest of the full travel plan.
 
 Check the example_output folder to view the entire example travel_plan.json result. To see what to expect your output to look like format wise.
 
+## Note
+My python flask server has to be running at the same time in order for this web application to work and make requests to the OPEN AI API.
+
+Also need enough credits on OPEN AI account or else it cannot make the api calls.
+
+With the server running and enough credits it works just as intended!
 
 ## Tech Stack
 React.js front-end
@@ -24,6 +30,6 @@ Node.js cross platform runtime enviornment
 Model: gpt-4-1106-preview (OpenAI completion model used to generate the custom travel plans)
 
 ## Available Scripts to run my app
-npm install
+npm install to install all necessary packages and dependencies.
 
-npm start
+npm start to run my app on [local host 3000](http://localhost:3000/)
