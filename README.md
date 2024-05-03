@@ -11,6 +11,8 @@ Example of resulting travel plan output:
 ![TravelPlanExamplePart2](images/travel_plan_2.png)
 The same structure applies for the rest of the full travel plan.
 
+Check the example_output folder to view the entire example travel_plan.json result. To see what to expect your output to look like format wise.
+
 
 ## Tech Stack
 React.js front-end

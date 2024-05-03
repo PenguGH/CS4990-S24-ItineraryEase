@@ -1,0 +1,285 @@
+{
+  "Destination": "Japan",
+  "Total Budget": "$1400",
+  "Duration (in days)": "14",
+  "Number of Travelers": "1",
+  "Interests": "anime, gaming, ramen",
+  "Already Determined Activities": {
+    "Gundam Statue Tokyo": "$0 (free to view)",
+    "Ichiran Ramen": "approximately $10 per meal",
+    "Toei Animation Museum": "approximately $0 (free admission, may have special exhibitions with an entrance fee)"
+  },
+  "Itinerary": [
+    {
+      "Day #": "1",
+      "City": "Tokyo",
+      "Activities": {
+        "Arrival in Narita Airport": "$0",
+        "Travel to Accommodation": "$10 (Narita Express to Tokyo)",
+        "Check-in & Rest": "$0"
+      },
+      "Meals": {
+        "Convenience Store Meals": "$10"
+      },
+      "Accommodations": {
+        "Hostel": "$30"
+      },
+      "Local Transportation": {
+        "Suica/Pasmo Card Purchase + Charge": "$25"
+      },
+      "Daily Spent": "$75"
+    },
+    {
+      "Day #": "2",
+      "City": "Tokyo",
+      "Activities": {
+        "Explore Akihabara (Anime & Gaming Shops)": "$0",
+        "Gundam Statue Tokyo": "$0",
+        "Evening in Odaiba": "$0"
+      },
+      "Meals": {
+        "Ichiran Ramen": "$10",
+        "Convenience Store Breakfast": "$5",
+        "Fast Food Dinner": "$10"
+      },
+      "Accommodations": {
+        "Hostel": "$30"
+      },
+      "Local Transportation": {
+        "Train Rides": "$10"
+      },
+      "Daily Spent": "$65"
+    },
+    {
+      "Day #": "3",
+      "City": "Tokyo",
+      "Activities": {
+        "Toei Animation Museum": "$0",
+        "Explore Nakano Broadway": "$0"
+      },
+      "Meals": {
+        "Ramen for Lunch": "$10",
+        "Supermarket Dinner": "$8"
+      },
+      "Accommodations": {
+        "Hostel": "$30"
+      },
+      "Local Transportation": {
+        "Train Rides": "$10"
+      },
+      "Daily Spent": "$58"
+    },
+    {
+      "Day #": "4",
+      "City": "Tokyo",
+      "Activities": {
+        "Day trip to Nikko (World Heritage Site)": "$40 (Transportation & Entry Fees)"
+      },
+      "Meals": {
+        "Local Eats in Nikko": "$20"
+      },
+      "Accommodations": {
+        "Hostel": "$30"
+      },
+      "Local Transportation": {
+        "Train Rides": "$0 (included in day trip cost)"
+      },
+      "Daily Spent": "$90"
+    },
+    {
+      "Day #": "5",
+      "City": "Tokyo",
+      "Activities": {
+        "Visit Tokyo National Museum": "$6",
+        "Ueno Park": "$0",
+        "Evening in Shinjuku": "$0"
+      },
+      "Meals": {
+        "Ueno Food Stalls": "$15",
+        "Convenience Store Dinner": "$8"
+      },
+      "Accommodations": {
+        "Hostel": "$30"
+      },
+      "Local Transportation": {
+        "Train Rides": "$10"
+      },
+      "Daily Spent": "$69"
+    },
+    {
+      "Day #": "6",
+      "City": "Kyoto",
+      "Activities": {
+        "Travel from Tokyo to Kyoto (Shinkansen)": "$120",
+        "Fushimi Inari Shrine in the Evening": "$0"
+      },
+      "Meals": {
+        "Ekiben (Train Bento)": "$10",
+        "Local Kyoto Dinner": "$15"
+      },
+      "Accommodations": {
+        "Hostel": "$35"
+      },
+      "Local Transportation": {
+        "Kyoto City Bus One-Day Pass": "$6"
+      },
+      "Daily Spent": "$186"
+    },
+    {
+      "Day #": "7",
+      "City": "Kyoto",
+      "Activities": {
+        "Arashiyama Bamboo Grove": "$0",
+        "Monkey Park Iwatayama": "$9"
+      },
+      "Meals": {
+        "Arashiyama Noodles": "$12",
+        "Supermarket Dinner": "$8"
+      },
+      "Accommodations": {
+        "Hostel": "$35"
+      },
+      "Local Transportation": {
+        "Bus Rides": "$6"
+      },
+      "Daily Spent": "$70"
+    },
+    {
+      "Day #": "8",
+      "City": "Kyoto",
+      "Activities": {
+        "Ginkaku-ji (Silver Pavilion)": "$6",
+        "Philosopher's Path": "$0"
+      },
+      "Meals": {
+        "Local Lunch": "$12",
+        "Convenience Store Dinner": "$8"
+      },
+      "Accommodations": {
+        "Hostel": "$35"
+      },
+      "Local Transportation": {
+        "Bus Rides": "$6"
+      },
+      "Daily Spent": "$67"
+    },
+    {
+      "Day #": "9",
+      "City": "Osaka",
+      "Activities": {
+        "Travel from Kyoto to Osaka": "$15",
+        "Explore Dotonbori": "$0"
+      },
+      "Meals": {
+        "Takoyaki Snack": "$5",
+        "Local Osaka Dinner": "$15"
+      },
+      "Accommodations": {
+        "Hostel": "$40"
+      },
+      "Local Transportation": {
+        "Osaka Metro Day Pass": "$8"
+      },
+      "Daily Spent": "$83"
+    },
+    {
+      "Day #": "10",
+      "City": "Osaka",
+      "Activities": {
+        "Universal Studios Japan": "$75 (One-Day Pass)"
+      },
+      "Meals": {
+        "USJ Theme Park Food": "$30"
+      },
+      "Accommodations": {
+        "Hostel": "$40"
+      },
+      "Local Transportation": {
+        "Train to USJ": "$5"
+      },
+      "Daily Spent": "$150"
+    },
+    {
+      "Day #": "11",
+      "City": "Hiroshima",
+      "Activities": {
+        "Travel from Osaka to Hiroshima": "$45",
+        "Hiroshima Peace Memorial Park & Museum": "$0"
+      },
+      "Meals": {
+        "Local Hiroshima Okonomiyaki": "$12",
+        "Supermarket Dinner": "$8"
+      },
+      "Accommodations": {
+        "Hostel": "$35"
+      },
+      "Local Transportation": {
+        "Hiroshima Tram Day Pass": "$7"
+      },
+      "Daily Spent": "$107"
+    },
+    {
+      "Day #": "12",
+      "City": "Hiroshima",
+      "Activities": {
+        "Miyajima Island Day Trip": "$18 (Ferry & Shrine Entrance)"
+      },
+      "Meals": {
+        "Local Eats on Miyajima": "$15",
+        "Convenience Store Dinner": "$8"
+      },
+      "Accommodations": {
+        "Hostel": "$35"
+      },
+      "Local Transportation": {
+        "Tram to Miyajimaguchi": "$3"
+      },
+      "Daily Spent": "$79"
+    },
+    {
+      "Day #": "13",
+      "City": "Tokyo",
+      "Activities": {
+        "Travel from Hiroshima to Tokyo (Shinkansen)": "$120"
+      },
+      "Meals": {
+        "Ekiben (Train Bento)": "$10",
+        "Cheap Izakaya Dinner": "$15"
+      },
+      "Accommodations": {
+        "Hostel": "$30"
+      },
+      "Local Transportation": {
+        "Local Train Rides": "$5"
+      },
+      "Daily Spent": "$180"
+    },
+    {
+      "Day #": "14",
+      "City": "Tokyo",
+      "Activities": {
+        "Last Minute Shopping": "$20",
+        "Travel to Narita Airport": "$10 (Narita Express)"
+      },
+      "Meals": {
+        "Last Sushi Meal": "$20"
+      },
+      "Accommodations": {
+        "None (Departure Day)": "$0"
+      },
+      "Local Transportation": {
+        "Local Train Rides": "$5"
+      },
+      "Daily Spent": "$55"
+    }
+  ],
+  "Estimated Total Spent": {
+    "Accommodations": "$435",
+    "Meals": "$241",
+    "Activities": "$304",
+    "Local Transportation": "$158",
+    "Souvenirs & Miscellaneous": "$33",
+    "Total": "$1171"
+  },
+  "Remaining Budget": "$229"
+}
